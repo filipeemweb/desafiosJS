@@ -1,0 +1,45 @@
+body {
+    background: rgb(104, 163, 240);
+    font: normal 18pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+main section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    text-align: center;
+}
+
+main section fieldset {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section fieldset legend {
+    font-size: 1.4rem;
+    text-align: left;
+    padding: 0 10px;
+}
+
+main section div select#tabuada {
+    text-align: center;
+    padding: 10px 5px;
+    min-width: 110px;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

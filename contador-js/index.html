@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>&#9889; Vamos contar &#9889;</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <fieldset>
+                    <legend>Contagem</legend>
+                    <label for="start"> De </label>
+                    <input type="number" name="start" id="start" min="0" placeholder="Nº">
+                    <label for="end"> até </label>
+                    <input type="number" name="end" id="end" min="0" placeholder="Nº">
+                    <label for="count"> pulando de </label>
+                    <input type="number" name="count" id="count" min="0" placeholder="Nº">
+
+                    <input type="button" value="Enviar" onclick="contar()" id="but">
+                    
+                    <div id="res">
+                        Preparando contagem...
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; filipeemweb</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
