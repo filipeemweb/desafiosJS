@@ -1,0 +1,58 @@
+body {
+    background: rgb(104, 163, 240);
+    font: normal 18pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+main section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    font-size: 14pt;
+}
+
+main section div#in {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main section div article#list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section div input#done {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+main section div input#entry {
+    width: 50px;
+}
+
+main section div article select#num-list {
+    min-width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+main section div#res {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

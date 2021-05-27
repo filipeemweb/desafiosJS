@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <main>
+        <section>
+            <div id="in">
+                <article>
+                    <label for="entry">Número [1 - 100]: </label>
+                    <input type="number" name="entry" min="0" id="entry">
+                    <input type="button" value="Adicionar" onclick="adicionar()">
+                </article>
+                <article id="list">
+                    <select name="num-list" id="num-list" size="5"></select>
+                    <input type="button" value="Finalizar" id="done" onclick="finalizar()">
+                </article>
+            </div>
+            <hr id="line" style="display: none;">
+            <div id="res"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; filipeemweb</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
